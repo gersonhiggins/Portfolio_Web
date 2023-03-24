@@ -5,9 +5,12 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-  .dropmenu1 ul{
-    display: inline;
+  ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
+
   .grid-layout {
     display: grid;
     grid-template-columns: 6% 88% 6%;
@@ -195,17 +198,13 @@ body {
 
   .buttons {
     margin-top: 28px;
-  
   }
-  ul {
-    padding-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
+
   ul li {
     display: inline;
   }
-  .buttons button  {
+
+  .buttons button {
     padding: 0 12px 0 12px;
     height: 24px;
     margin-right: 8px;
@@ -218,7 +217,6 @@ body {
     background: #ebebff;
     border: none;
     border-radius: 7%;
-
   }
 
   .project button {
@@ -458,13 +456,15 @@ body {
 
 @media only screen and (max-width: 1200px) {
   ul {
-    padding-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
+
   ul li {
     display: inline;
   }
+
   .grid-layout {
     display: grid;
     grid-template-columns: 6% 88% 6%;
@@ -927,13 +927,15 @@ body {
 
 @media only screen and (max-width: 768px) {
   ul {
-    padding-left: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
+
   ul li {
     display: inline;
   }
+
   .grid-layout {
     display: grid;
     grid-template-columns: 6% 88% 6%;
