@@ -5,6 +5,9 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
+  .dropmenu1 ul{
+    display: inline;
+  }
   .grid-layout {
     display: grid;
     grid-template-columns: 6% 88% 6%;
@@ -370,7 +373,7 @@ body {
     color: #253858;
   }
 
-  .dropmenu1 {
+  .dropmenu1 ul {
     display: none;
   }
 
@@ -380,7 +383,7 @@ body {
     margin-left: 6%;
   }
 
-  .languajes:hover .dropmenu1 {
+  .languajes:hover .dropmenu1 ul {
     display: flex;
   }
 
