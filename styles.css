@@ -1085,8 +1085,8 @@ body {
   }
 
   .multi {
-    width: 295px;
-    height: 40px;
+    width: 150%;
+    height: 80px;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
