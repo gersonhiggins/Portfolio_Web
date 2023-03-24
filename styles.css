@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif, poppins;
+  font-family: Poppins, sans-serif;
   background: #e5e5e5;
   position: relative;
 }
@@ -383,6 +383,7 @@ body {
 
   .languajes:hover .dropmenu1 ul {
     display: flex;
+    margin-top: 36px;
   }
 
   .am {
@@ -452,6 +453,10 @@ body {
     border-color: #091e42;
     background-color: #396df2;
   }
+
+  .arrows {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -481,6 +486,10 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+  }
+
+  #inverse {
+    flex-direction: column-reverse;
   }
 
   .box1 {
@@ -854,6 +863,7 @@ body {
   .languajes:hover .dropmenu1 {
     display: flex;
     flex-direction: column;
+    margin-top: 36px;
   }
 
   .am {
@@ -923,12 +933,15 @@ body {
     border-color: #091e42;
     background-color: #396df2;
   }
+
+  .arrows {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   ul {
     padding-left: 0;
-    margin-top: 0;
     margin-bottom: 0;
   }
 
@@ -952,6 +965,10 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
+  }
+
+  #inverse {
+    flex-direction: column-reverse;
   }
 
   .box1 {
@@ -1166,10 +1183,9 @@ body {
   }
 
   .about2 button {
-    padding: 46px;
+    padding: 0;
     width: 100%;
     background-color: inherit;
-    border: none;
     height: 24px;
     font-style: normal;
     font-weight: 500;
@@ -1230,7 +1246,7 @@ body {
     background-color: #fff;
     height: 500px;
     border-top-right-radius: 100px;
-    padding-bottom: 600px;
+    padding-bottom: 800px;
   }
 
   .about1 {
@@ -1246,7 +1262,7 @@ body {
 
   .html {
     margin-bottom: 20px;
-    width: 100%;
+    width: 160%;
     height: 50px;
     padding: 108px;
     background-color: #f7f7f9;
@@ -1273,7 +1289,7 @@ body {
 
   .css {
     margin-bottom: 20px;
-    width: 100%;
+    width: 160%;
     height: 50px;
     padding: 108px;
     background-color: #f7f7f9;
@@ -1300,7 +1316,7 @@ body {
 
   .java {
     margin-bottom: 20px;
-    width: 100%;
+    width: 160%;
     height: 50px;
     padding: 108px;
     background-color: #f7f7f9;
@@ -1332,13 +1348,56 @@ body {
   .dropmenu1 div {
     padding: 12px;
     margin-right: 12px;
-    margin-left: 6%;
+    left: 2%;
   }
 
   .languajes:hover .dropmenu1 {
     display: flex;
     flex-direction: column;
   }
+
+  .boton {
+    border-bottom: #091e42;
+  }
+
+  .boton p {
+    width: 85%;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #dfe1e6;
+    position: absolute;
+    font-family: Poppins, sans-serif;
+    left: 8%;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 100%;
+  }
+
+  .arrows p {
+    position: relative;
+    font-size: 25px;
+    z-index: 3;
+    margin-left: 170%;
+    bottom: 22px;
+    color: #acb7c3;
+  }
+
+  .languajes:hover .boton p {
+    border: none;
+  }
+
+  .languajes:hover .arrows p {
+    transform: rotate(90deg);
+  }
+
 
   .am {
     margin: 0;
