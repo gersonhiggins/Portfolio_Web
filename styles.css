@@ -5,6 +5,11 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
+  .boton {
+    font-family: Poppins, sans-serif;
+    border-bottom: #6b778c;
+  }
+
   ul {
     padding-left: 0;
     margin-top: 0;
@@ -459,7 +464,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
   ul {
     padding-left: 0;
     margin-top: 0;
@@ -691,7 +696,7 @@ body {
   }
 
   .about2 button {
-    padding: 46px;
+    padding: 20px;
     width: 100%;
     background-color: inherit;
     border: none;
@@ -850,6 +855,48 @@ body {
     color: #253858;
   }
 
+  .boton {
+    border: none;
+  }
+
+  .boton p {
+    width: 85%;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #dfe1e6;
+    position: absolute;
+    font-family: Poppins, sans-serif;
+    left: 8%;
+    height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 100%;
+  }
+
+  .arrows p {
+    position: relative;
+    font-size: 25px;
+    z-index: 3;
+    margin-left: 170%;
+    bottom: 30px;
+    color: #acb7c3;
+  }
+
+  .languajes:hover .boton p {
+    border: none;
+  }
+
+  .languajes:hover .arrows p {
+    transform: rotate(90deg);
+  }
+
   .dropmenu1 {
     display: none;
   }
@@ -933,16 +980,13 @@ body {
     border-color: #091e42;
     background-color: #396df2;
   }
-
-  .arrows {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 768px) {
   ul {
     padding-left: 0;
     margin-bottom: 0;
+    margin-top: 0;
   }
 
   ul li {
@@ -1155,6 +1199,8 @@ body {
   .buttons {
     margin-top: 0;
     display: flex;
+    width: 150%;
+    margin-bottom: 12%;
   }
 
   .buttons button {
@@ -1357,7 +1403,7 @@ body {
   }
 
   .boton {
-    border-bottom: #091e42;
+    border: none;
   }
 
   .boton p {
