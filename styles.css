@@ -192,13 +192,20 @@ body {
 
   .buttons {
     margin-top: 28px;
+  
   }
-
-  .buttons button {
+  ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  ul li {
+    display: inline;
+  }
+  .buttons button  {
     padding: 0 12px 0 12px;
     height: 24px;
     margin-right: 8px;
-    margin-top: 24px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -208,6 +215,7 @@ body {
     background: #ebebff;
     border: none;
     border-radius: 7%;
+
   }
 
   .project button {
@@ -446,6 +454,14 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+  ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  ul li {
+    display: inline;
+  }
   .grid-layout {
     display: grid;
     grid-template-columns: 6% 88% 6%;
@@ -907,6 +923,14 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  ul {
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  ul li {
+    display: inline;
+  }
   .grid-layout {
     display: grid;
     grid-template-columns: 6% 88% 6%;
