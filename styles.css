@@ -690,6 +690,7 @@ body {
     margin-right: 12px;
     margin-left: 6%;
   }
+
   .contact_intro p {
     font-style: normal;
     font-weight: 400;
@@ -698,6 +699,7 @@ body {
     text-align: center;
     color: #ebebff;
   }
+
   .languajes:hover .dropmenu1 ul {
     display: flex;
     margin-top: 36px;
@@ -796,6 +798,7 @@ body {
   .about2 div:hover .arrows p {
     transform: rotate(90deg);
   }
+
   .contact_form {
     background-color: white;
   }
@@ -864,9 +867,10 @@ body {
     letter-spacing: 0.03em;
     color: #6070ff;
   }
+
   .getin:hover {
     background-color: #6070ff;
-    color: #ffffff;
+    color: #fff;
   }
 
   .line {
@@ -1103,9 +1107,11 @@ body {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   form ul {
     width: 100%;
   }
+
   .menuhover ul {
     width: 46px;
     height: 20px;
@@ -1599,6 +1605,7 @@ body {
     bottom: 30px;
     color: #acb7c3;
   }
+
   .contact_intro p {
     font-style: normal;
     font-weight: 400;
@@ -1607,6 +1614,7 @@ body {
     text-align: center;
     color: #ebebff;
   }
+
   .languajes:hover .boton p {
     border: none;
   }
@@ -1698,6 +1706,7 @@ body {
     border-color: #091e42;
     background-color: #396df2;
   }
+
   .contact_form {
     background-color: white;
   }
@@ -1766,9 +1775,10 @@ body {
     letter-spacing: 0.03em;
     color: #6070ff;
   }
+
   .getin:hover {
     background-color: #6070ff;
-    color: #ffffff;
+    color: #fff;
   }
 
   .line {
@@ -2723,9 +2733,10 @@ body {
     letter-spacing: 0.03em;
     color: #6070ff;
   }
+
   .getin:hover {
     background-color: #6070ff;
-    color: #ffffff;
+    color: #fff;
   }
 
   .line {
