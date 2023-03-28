@@ -4,7 +4,6 @@ body {
   background: #e5e5e5;
   position: relative;
   margin: 0;
-  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -241,6 +240,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
   }
+
 
   .menuhover ul {
     width: 46px;
@@ -1854,6 +1854,10 @@ body {
     margin-top: 0;
   }
 
+  form ul {
+    width: 100%;
+  }
+
   .menuhover ul {
     display: none;
   }
@@ -2387,6 +2391,15 @@ body {
     color: #acb7c3;
   }
 
+  .contact_intro p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
   .languajes:hover .boton p {
     border: none;
   }
@@ -2465,51 +2478,44 @@ body {
 
   .contact_form {
     background-color: white;
-    
   }
+
   .contact_background {
     background-color: hsl(234, 100%, 69%);
     border-top-left-radius: 100px;
     padding-top: 103px;
     padding-bottom: 8px;
   }
+
   .contact_intro {
     margin: 0 6%;
-
   }
+
   .contact_intro h2 {
     padding: 0;
     box-sizing: border-box;
     margin-bottom: 0;
-   margin-left: 5.4%;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  text-align: center;
-  color: #ffffff;
-  justify-content: center;
-  }
-  .contact_intro p {
+    margin-left: 5.4%;
     font-style: normal;
-    font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
   }
+
   form {
     margin: 0 6%;
   }
-  form ul {
-    width: 100%;
-  }
+
   form ul li {
     width: 100%;
-    
   }
-  form ul li input, textarea{
+
+  form ul li input,
+  textarea {
     margin-bottom: 18px;
     padding: 15px 0;
     border-radius: 5px;
@@ -2519,28 +2525,29 @@ color: #EBEBFF;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    color: #172B4D;
+    color: #172b4d;
   }
+
   .getin {
     border: none;
     border-radius: 5px;
     padding: 12px 16px;
     font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #6070FF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #6070ff;
   }
+
   .line {
     margin: 32px 35% 8px 35%;
-   
     border-radius: 2px;
     width: 30%;
     height: 5px;
-    background-color: #0D151E;
+    background-color: #0d151e;
   }
 }
