@@ -4,6 +4,7 @@ body {
   background: #e5e5e5;
   position: relative;
   margin: 0;
+  overflow-x: hidden;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -417,7 +418,7 @@ body {
   .canopy .p2 {
     display: list-item;
     list-style: circle #c1c7d0;
-    width: 120px;
+    width: 135px;
     height: 24px;
     font-style: normal;
     font-weight: 400;
@@ -460,7 +461,7 @@ body {
   .facebook .p2 {
     display: list-item;
     list-style: circle #c1c7d0;
-    width: 122px;
+    width: 130px;
     height: 24px;
     font-style: normal;
     font-weight: 400;
@@ -479,6 +480,10 @@ body {
     font-size: 18px;
     line-height: 133%;
     color: #6b778c;
+  }
+
+  .face {
+    margin-bottom: 50px;
   }
 
   .uber {
@@ -682,7 +687,8 @@ body {
   }
 
   .dropmenu1 ul {
-    display: none;
+    display: flex;
+    margin-top: 36px;
   }
 
   .dropmenu1 div {
@@ -701,8 +707,7 @@ body {
   }
 
   .languajes:hover .dropmenu1 ul {
-    display: flex;
-    margin-top: 36px;
+    background-color: #fff;
   }
 
   .am {
@@ -800,7 +805,7 @@ body {
   }
 
   .contact_form {
-    margin-top: 100px;
+    padding-top: 100px;
     background-color: white;
   }
 
@@ -1329,7 +1334,7 @@ body {
   .canopy .p2 {
     display: list-item;
     list-style: circle #c1c7d0;
-    width: 120px;
+    width: 130px;
     height: 24px;
     font-style: normal;
     font-weight: 400;
@@ -1373,7 +1378,7 @@ body {
   .facebook .p2 {
     display: list-item;
     list-style: circle #c1c7d0;
-    width: 122px;
+    width: 130px;
     height: 24px;
     font-style: normal;
     font-weight: 400;
@@ -1660,7 +1665,9 @@ body {
   }
 
   .dropmenu1 {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
   }
 
   .dropmenu1 div {
@@ -1670,9 +1677,7 @@ body {
   }
 
   .languajes:hover .dropmenu1 {
-    display: flex;
-    flex-direction: column;
-    margin-top: 36px;
+    background-color: #fff;
   }
 
   .am {
@@ -2340,7 +2345,7 @@ body {
   }
 
   .canopy .p2 {
-    width: 88px;
+    width: 95px;
     height: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2441,7 +2446,7 @@ body {
   }
 
   .uber .p2 {
-    width: 100px;
+    width: 110px;
     height: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2589,7 +2594,8 @@ body {
   }
 
   .dropmenu1 {
-    display: none;
+    display: flex;
+    flex-direction: column;
   }
 
   .dropmenu1 div {
@@ -2599,8 +2605,7 @@ body {
   }
 
   .languajes:hover .dropmenu1 {
-    display: flex;
-    flex-direction: column;
+    background-color: #fff;
   }
 
   .boton {
