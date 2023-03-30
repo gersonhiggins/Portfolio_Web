@@ -2148,6 +2148,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
+    transition: color 1s, padding 0.5s;
   }
 
   .about2 a:hover {
@@ -2156,6 +2157,9 @@ body {
 
   .project button:hover a {
     color: #091e42;
+    padding: 5px;
+
+    
   }
 
   .menuhover:hover ul li a {
@@ -2165,6 +2169,7 @@ body {
     font-size: 20px;
     text-decoration: none;
     color: #7f8cff;
+   
   }
 
   .menuhover ul li a:hover {
