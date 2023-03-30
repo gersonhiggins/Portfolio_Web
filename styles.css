@@ -1,10 +1,8 @@
-
 body {
   font-family: Poppins, sans-serif;
   background: #e5e5e5;
   position: relative;
   margin: 0;
-  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -753,6 +751,8 @@ body {
     border-radius: 10px;
     border-color: #396df2;
     margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 2s;
   }
 
   .resume:hover {
@@ -1893,27 +1893,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #396df2;
-    transition: padding 0.5s;    
   }
-
- .project {
-  animation: 3s 1 alternate slidein;
- }
-
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-
-  }
-
-
 
   .about2 a:hover {
     color: #091e42;
@@ -1921,7 +1901,6 @@ body {
 
   .project button:hover a {
     color: #091e42;
-    padding: 5px;
   }
 
   .menuhover:hover ul li a {
@@ -2482,86 +2461,5 @@ body {
     color: #091e42;
     border-color: #091e42;
     background-color: #396df2;
-  }
-
-  .contact_form {
-    background-color: white;
-    
-  }
-  .contact_background {
-    background-color: hsl(234, 100%, 69%);
-    border-top-left-radius: 100px;
-    padding-top: 103px;
-    padding-bottom: 8px;
-  }
-  .contact_intro {
-    margin: 0 6%;
-
-  }
-  .contact_intro h2 {
-    padding: 0;
-    box-sizing: border-box;
-    margin-bottom: 0;
-   margin-left: 5.4%;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  text-align: center;
-  color: #ffffff;
-  justify-content: center;
-  }
-  .contact_intro p {
-    font-style: normal;
-    font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
-  }
-  form {
-    margin: 0 6%;
-  }
-  form ul {
-    width: 100%;
-  }
-  form ul li {
-    width: 100%;
-    
-  }
-  form ul li input, textarea{
-    margin-bottom: 18px;
-    padding: 15px 0;
-    border-radius: 5px;
-    width: 100%;
-    border: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 20px;
-    color: #172B4D;
-  }
-  .getin {
-    border: none;
-    border-radius: 5px;
-    padding: 12px 16px;
-    font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color: #6070FF;
-  }
-  .line {
-    margin: 32px 35% 8px 35%;
-   
-    border-radius: 2px;
-    width: 30%;
-    height: 5px;
-    background-color: #0D151E;
   }
 }
